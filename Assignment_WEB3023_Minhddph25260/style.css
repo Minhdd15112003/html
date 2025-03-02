@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1600px;
+    margin: auto;
+    font-family: 'Poppins', serif;
+}
+
+header .logo {
+    background-color: orangered;
+}
+.menu {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkslategrey;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    padding: 10px 0;
+    margin: 0 50px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav ul li:hover {
+    background-color: orangered;
+}
+.search input {
+    padding: 4px;
+    width: 400px;
+    border: none;
+}
+
+.search button {
+    padding: 4px;
+    width: 100px;
+
+    background-color: darkslategrey;
+    color: white;
+    border: 1px solid orangered;
+}
+.banner img {
+    width: 100%;
+    height: 500px;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 90px;
+    color: orangered;
+    margin: 50px 0;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.content-item {
+    padding: 20px;
+    border: 1px solid orangered;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content-item span {
+    font-size: 25px;
+    color: orangered;
+}
+
+.content-item img {
+    width: 440px;
+    height: 100%;
+}
+
+.content-item img {
+    display: block;
+    transition: 0.3s;
+}
+.content-item img:hover {
+    transform: scale(1.3); /* cỡ zoom khi di chuột vào */
+}
+
+.content-item p {
+    color: black;
+}
+
+.content1 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.content-item1 {
+    padding: 20px;
+    border: 1px solid orangered;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content-item1 span {
+    font-size: 25px;
+    color: orangered;
+}
+
+.content-item1 img {
+    width: 440px;
+    height: 100%;
+}
+
+.content-item1 img {
+    display: block;
+    transition: 0.3s;
+}
+.content-item1 img:hover {
+    transform: scale(1.3); /* cỡ zoom khi di chuột vào */
+}
+
+.content-item1 p {
+    color: black;
+}
+
+footer {
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

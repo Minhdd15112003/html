@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1600px;
+    margin: auto;
+    font-family: 'Poppins', serif;
+}
+
+header .logo {
+    background-color: orangered;
+}
+.menu {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkslategrey;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    padding: 10px 0;
+    margin: 0 50px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+nav ul li:hover {
+    background-color: orangered;
+}
+.search input {
+    padding: 4px;
+    width: 400px;
+    border: none;
+}
+
+.search button {
+    padding: 4px;
+    width: 100px;
+
+    background-color: darkslategrey;
+    color: white;
+    border: 1px solid orangered;
+}
+.banner img {
+    width: 100%;
+    height: 500px;
+}
+
+main h1 {
+    text-align: center;
+    font-size: 90px;
+    color: orangered;
+    margin: 50px 0;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto 50px;
+    padding: 20px;
+    border: 1px solid orangered;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 20px;
+    color: orangered;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid darkslategrey;
+    font-family: 'Poppins', serif;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: darkslategrey;
+}
