@@ -105,10 +105,12 @@ nav ul li a:hover {
     height: 200px;
     margin: 10px 0;
 }
+/* hieu ung zoom anh */
 .content .item img {
     display: block;
     transition: 0.3s;
 }
+
 .content .item img:hover {
     transform: scale(1.3);
 }
