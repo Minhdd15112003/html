@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <header>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="" class="active">Trang chủ</a></li>
+                        <li><a href="">Giới thiệu</a></li>
+                        <li><a href="">Sản phẩm</a></li>
+                        <li><a href="">Liên hệ</a></li>
+                    </ul>
+                </nav>
+                <form class="search">
+                    <input type="search" required />
+                    <button type="submit">tìm kiếm</button>
+                </form>
+            </div>
+            <canvas class="myCanvas" width="400" height="200"></canvas>
+            <div class="banner">
+                <img src="./image/banner.png" alt="" />
+            </div>
+        </header>
+        <main>
+            <section class="content">
+                <div class="item">
+                    <span>lap top</span>
+                    <img src="./image/laptop.jpg" alt="" />
+                    <div class="price">
+                        <del>11.900.000đ</del>
+                        <p>10.000.000</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <span>lap top</span>
+                    <img src="./image/laptop.jpg" alt="" />
+                    <div class="price">
+                        <p>10.000.000</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <span>lap top</span>
+                    <img src="./image/laptop.jpg" alt="" />
+                    <div class="price">
+                        <p>10.000.000</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <span>lap top</span>
+                    <img src="./image/laptop.jpg" alt="" />
+                    <div class="price">
+                        <p>10.000.000</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <span>lap top</span>
+                    <img src="./image/laptop.jpg" alt="" />
+                    <div class="price">
+                        <p>10.000.000</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <span>lap top</span>
+                    <img src="./image/laptop.jpg" alt="" />
+                    <div class="price">
+                        <del>11.900.000đ</del>
+                        <p>10.000.000</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <span>lap top</span>
+                    <img src="./image/laptop.jpg" alt="" />
+                    <div class="price">
+                        <p>10.000.000</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <span>lap top</span>
+                    <img src="./image/laptop.jpg" alt="" />
+                    <div class="price">
+                        <p>10.000.000</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>footer</footer>
+    </body>
+    <script>
+        const canvas = document.querySelector('.myCanvas');
+        const ctx = canvas.getContext('2d');
+
+        ctx.beginPath();
+        ctx.ellipse(200, 100, 60, 45, 0, 0, Math.PI * 2);
+        ctx.fillStyle = '#F4C430';
+        ctx.fill();
+
+        ctx.fillStyle = '#FFF ';
+        ctx.font = 'bold 30px Arial';
+        ctx.textAlign = 'center';
+        ctx.fillText('my', 230, 105);
+        ctx.fillStyle = '#8B4513';
+        ctx.beginPath();
+        ctx.ellipse(300, 100, 50, 30, 0, 0, Math.PI * 2);
+
+        ctx.fill();
+
+        ctx.fillStyle = '#FFF';
+        ctx.font = 'bold 20px Arial';
+        ctx.textAlign = 'center';
+        ctx.fillText('laptop', 300, 105);
+    </script>
+</html>
